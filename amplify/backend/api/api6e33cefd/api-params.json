@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "dcds",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api6e33cefd",
+    "apiName": "api6e33cefd",
+    "functionArns": [
+        {
+            "lambdaFunction": "dcds"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-sacxsdc-asdcsdc-83504-authRole",
+        "unAuthRoleName": "amplify-sacxsdc-asdcsdc-83504-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "dcds",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
