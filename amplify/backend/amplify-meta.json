@@ -16,7 +16,22 @@
 		"dcds": {
 			"service": "Lambda",
 			"providerPlugin": "awscloudformation",
-			"build": true
+			"build": true,
+			"output": {
+				"Region": "us-east-1",
+				"Arn": "arn:aws:lambda:us-east-1:007181558379:function:dxsaxcd-asdcsdc",
+				"Name": "dxsaxcd-asdcsdc",
+				"LambdaExecutionRole": "sacxsdcLambdaRole8f7c9959-asdcsdc"
+			},
+			"lastPushTimeStamp": "2019-12-03T03:20:01.109Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-sacxsdc-asdcsdc-83504-deployment/amplify-cfn-templates/function/dcds-cloudformation-template.json",
+				"logicalId": "functiondcds"
+			},
+			"lastBuildTimeStamp": "2019-12-03T03:19:15.079Z",
+			"lastPackageTimeStamp": "2019-12-03T03:19:15.951Z",
+			"distZipFilename": "dcds-4965495961566a6c4477-build.zip",
+			"lastPushDirHash": "OdViQBR5nnOqWSjr5/HP53uKgJQ="
 		}
 	},
 	"api": {
@@ -32,7 +47,16 @@
 						"Arn"
 					]
 				}
-			]
+			],
+			"output": {
+				"ApiName": "api6e33cefd",
+				"RootUrl": "https://dacvn8utcc.execute-api.us-east-1.amazonaws.com/asdcsdc"
+			},
+			"lastPushTimeStamp": "2019-12-03T03:20:01.107Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-sacxsdc-asdcsdc-83504-deployment/amplify-cfn-templates/api/api6e33cefd-cloudformation-template.json",
+				"logicalId": "apiapi6e33cefd"
+			}
 		}
 	}
 }
